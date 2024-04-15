@@ -10,7 +10,7 @@ connectionString: process.env.DATABASE_URL,
 })
 
 app.get('/',(req,res)=> {
-    res.send('HolaMundo Atari')
+    res.send('HolaMundo HelloWorld')
 })
 
 app.get('/ping', async(req,res)=> {
